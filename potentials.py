@@ -1,19 +1,18 @@
 import pygame
-from helpers import InputTextBox
-import numpy as np
-import matplotlib.pyplot as plt
+from quantum.helpers import InputTextBox
+from quantum import Particle, WaveFunction
 import scipy as sci
+import numpy as np
+import pylab
 
 h = sci.constants.h
 h_bar = sci.constants.hbar
 
 pygame.init()
 
-def incident_flux(k, m):
-    return h_bar * k / m
 
-def reflected_flux(k, m, B):
-    return -h_bar * k / m * abs(B) ** 2
+def flux(x):
+    return
 
 
 def main():
