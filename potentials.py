@@ -1,4 +1,5 @@
 import pygame
+import pygame_gui
 from quantum.helpers import InputTextBox
 from quantum import Particle, WaveFunction
 import scipy as sci
